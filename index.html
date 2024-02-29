@@ -1,0 +1,91 @@
+<DOCTYPE html5>
+    <html lang=en>
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Player Collaboration Survey: Gaming with Chevallier</title>
+        <link rel="stylesheet" href="styles.css">
+        </head>
+  <body> 
+  <header>
+      <nav>    
+        <ul>
+          <li><a href="https://www.op.gg/summoners/lan/krz%20Chevallier/champions" target="_blank">Champions</a></li>
+          <li><a href="https://www.leagueofgraphs.com/es/summoner/lan/krz%20Chevallier" target="_blank">Main account</a></li>
+          <li><a href="https://www.leagueofgraphs.com/es/summoner/lan/krz%20Vallier" target ="_blank">secondary account</a></li> 
+        </ul>
+      </nav>
+  </header>
+  <h1 id="title">Player Collaboration Survey: Gaming with Chevallier</h1>
+  <form id="survey-form">  
+   <div class="form-group">
+     
+    <label class="center-min"><p id="description" class="description text-center">Thank you for taking the time to rate my performance.
+          </p></label class="survey-form">
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Summoner Name</label>
+            <input type="text" name="name" id="name" class="form-control" placeholder="Enter your id" required/>
+          </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email (Optional)</label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required />
+          </div>
+        <div class="form-group">
+            <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
+            <input type="number" name="age" id="number" min="13" max="90" class="form-control" placeholder="Age" />
+          </div>
+          <div class="form-group">
+            <p>Which option best describes your current role?</p>
+            <select id="dropdown" name="role" class="form-control" required>
+              <option class="form-control" disabled selected value>Select current role</option>
+              <option value="Carry-u">I carry you</option>
+              <option value="Carry-me">You carry me</option>
+              <option value="Good-player">Good player</option>
+              <option value="Bad-player">Bad player</option>
+              <option value="Regular-player">Regular player</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+  <!-- Options -->
+      <div class="form-group">
+            <p>Would you like to play with me another time?</p>
+            <label class="input-checkbox">
+              <input name="user-recommend" value="definitely" type="radio" class="checkbox" checked /><span class="custom-checkbox"></span>Definitely</label>
+            <label class="input-checkbox">
+              <input name="user-recommend" value="maybe" type="radio" class="checkbox"/><span class="custom-checkbox"></span>Maybe</label>
+            <label class="input-checkbox"> 
+              <input name="user-recommend" value="not-sure" type="radio" class="checkbox" /><span class="custom-checkbox"></span>Not sure</label>
+  <div>
+  <h2>¿Did you like playing with me?</h2>
+  </div>
+  <div>
+  <label><input name="rol" value="Yes" type="checkbox" class="checkbox-style">Yes</label>
+  </div>
+  <div>
+  <label><input name="rol" value="Obviously yes" type="checkbox" class="checkbox-style">Obviously YES</label>
+  </div> 
+          </div>
+  <!-- Strengths -->
+       <div class="form-group">
+            <p>What are my strengths?</p>
+            <select id="most-like" name="mostLike" class="form-control" required>
+              <option disabled selected value>Select an option</option>
+              <option value="challenges">Early Game</option>
+              <option value="projects">Mid Game</option>
+              <option value="community">Late game</option>
+            </select>
+    <div class="form-group">
+            <p >Any comments or suggestions?</p>
+            <textarea class="form-control" id="comments"
+              class="input-textarea" name="comment" placeholder="Enter your comment here..." ></textarea>
+            <div class="form-group">
+            <button type="submit" id="submit" class="submit-button">
+              Submit
+            </button>
+          </div>
+  </form>
+          </div>
+          </body>
+  
+      </html>
